@@ -1,0 +1,150 @@
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Header Styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #000;
+    color: #fff;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    background-color: #333;
+    border-radius: 4px;
+}
+
+/* Main Banner Section */
+.main-banner {
+    height: 100vh;
+    background-image: url(https://media.licdn.com/dms/image/D5612AQEs_OtHHqKg8Q/article-cover_image-shrink_720_1280/0/1717137179597?e=2147483647&v=beta&t=o4uj24qvMe5wVF39WvEzBFCYo58fSazlJDYprdQtvyM); /* Use this if the link works */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    background-color: #e0e0e0; /* Fallback background */
+    position: relative;
+}
+
+.main-banner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6); /* Adds a dark overlay for better text contrast */
+}
+
+.main-banner .banner-content {
+    max-width: 600px;
+    z-index: 1; /* Ensures content is on top of the overlay */
+}
+
+.main-banner h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.main-banner p {
+    font-size: 24px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.main-banner .btn {
+    padding: 10px 20px;
+    background-color: #e82127;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.main-banner .btn:hover {
+    background-color: #333;
+}
+
+/* Features Section */
+.features-section {
+    padding: 80px 40px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.features-section h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.feature-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.card {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Environmental Impact Section */
+.environmental-section,
+.future-section,
+.resources-section {
+    padding: 80px 40px;
+    text-align: center;
+    
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}

@@ -1,0 +1,191 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+} 
+
+
+
+#onediv{
+    height: 200px;
+    width: 2500px;
+    background-color: #004d40;
+    text-align: center;
+    border: 4px solid  #f4f4f4;
+    display: flex;
+    justify-content: center;
+}
+h1{
+    color: white;
+    padding-top: 40px;
+}
+
+ #onebutton{
+    height: 400px;
+    width: 400px;
+    border-radius: 25%;
+    font-weight: 600px;
+    font-weight: bolder;
+    margin-left: 30px;
+    margin-top: 30px;
+    border: 4px solid #004d40;
+    background-color:  #f4f4f4;
+
+
+    
+}
+#twobutton{
+    height: 400px;
+    width: 400px;
+    border-radius: 25%;
+    font-weight: 600px;
+    font-weight: bolder;
+    margin-left: 30px;
+    margin-top: 30px;
+    border: 4px solid #004d40 ;
+    background-color:  #f4f4f4;
+
+}
+#threebutton{
+    height: 400px;
+    width: 400px;
+    border-radius: 25%;
+    font-weight: 600px;
+    font-weight: bolder;
+    margin-left: 30px;
+    margin-top: 30px;
+    border: 4px solid #004d40 ;
+    background-color:  #f4f4f4;
+
+}
+#fourbutton{
+    height: 400px;
+    width: 400px;
+    border-radius: 25%;
+    font-weight: 600px;
+    font-weight: bolder;
+    margin-left: 30px;
+    margin-top: 30px;
+    border: 4px solid #004d40 ;
+    background-color:  #f4f4f4;
+}
+#fivebutton{
+    height: 400px;
+    width: 400px;
+    border-radius: 25%;
+    font-weight: 600px;
+    font-weight: bolder;
+    margin-left: 30px;
+    margin-top: 30px;
+    border: 4px solid #004d40 ;
+    background-color:  #f4f4f4;
+}
+#sixbutton{
+    height: 400px;
+    width: 400px;
+    border-radius: 25%;
+    font-weight: 600px;
+    font-weight: bolder;
+    margin-left: 30px;
+    margin-top: 30px;
+    border: 4px solid #004d40 ;
+    background-color:  #f4f4f4;
+}
+#sevenbutton{
+    height: 400px;
+    width: 400px;
+    border-radius: 25%;
+    font-weight: 600px;
+    font-weight: bolder;
+    margin-left: 30px;
+    margin-top: 30px;
+    border: 4px solid #004d40 ;
+    background-color:  #f4f4f4;
+}
+#eightbutton{
+    height: 400px;
+    width: 400px;
+    border-radius: 25%;
+    font-weight: 600px;
+    font-weight: bolder;
+    margin-left: 30px;
+    margin-top: 30px;
+    border: 4px solid #004d40 ;
+    background-color:  #f4f4f4;
+}
+#ninebutton{
+    height: 400px;
+    width: 400px;
+    border-radius: 25%;
+    font-weight: 600px;
+    font-weight: bolder;
+    margin-left: 30px;
+    margin-top: 30px;
+    border: 4px solid #004d40 ;
+    background-color:  #f4f4f4;
+}
+#tenbutton{
+    height: 400px;
+    width: 400px;
+    border-radius: 25%;
+    font-weight: 600px;
+    font-weight: bolder;
+    margin-left: 30px;
+    margin-top: 30px;
+    border: 4px solid #004d40 ;
+    background-color:  #f4f4f4;
+
+}
+#elevenbutton{
+    height: 400px;
+    width: 400px;
+    border-radius: 25%;
+    font-weight: 600px;
+    font-weight: bolder;
+    margin-left: 30px;
+    margin-top: 30px;
+    border: 4px solid #004d40 ;
+    background-color:  #f4f4f4;
+
+}
+#twelvebutton{
+    height: 400px;
+    width: 400px;
+    border-radius: 25%;
+    font-weight: 600px;
+    font-weight: bolder;
+    margin-left: 30px;
+    margin-top: 30px;
+    border: 4px solid #004d40 ;
+    background-color:  #f4f4f4;
+
+}
+#thirteenbutton{
+    height: 400px;
+    width: 400px;
+    border-radius: 25%;
+    font-weight: 600px;
+    font-weight: bolder;
+    margin-left: 30px;
+    margin-top: 30px;
+    border: 4px solid #004d40 ;
+    background-color:  #f4f4f4;
+
+}
+#fourteenbutton{
+    height: 400px;
+    width: 400px;
+    border-radius: 25%;
+    font-weight: 600px;
+    font-weight: bolder;
+    margin-left: 30px;
+    margin-top: 30px;
+    border: 4px solid #004d40 ;
+    background-color:  #f4f4f4;
+
+}
+#seconddiv{
+    margin-top: 100px;
+   
+}
